@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .bandeira{
+
+        height: 100vh;
+       
+        display: flex;
+    
+    }
+ 
+
+    .preto{
+        background-color: black;
+
+        flex: 1;
+    }
+    .amarelo{
+background-color: yellow;
+    flex:1;
+    
+    }
+
+      
+     .vermelho {
+        background-color: red;
+ flex: 1;  }
+
+</style>
+
+</head>
+
+<body>
+    <div class="bandeira">
+    <div class="preto"> </div>
+        <div class="amarelo"> </div>
+        <div class="vermelho"></div>
+        </div>
+
+ 
+</body>
+</html>
