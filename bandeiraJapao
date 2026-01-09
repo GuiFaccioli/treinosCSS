@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* remove a rolagem */
+}
+        .bandeira{
+  width: 100vw;
+  height: 100vh;
+
+        }
+
+        .branco{
+background-color: white;
+
+
+        }
+
+        .bolaVermelha{
+               display: flex;
+            background-color: red;
+            
+            border-radius: 1000px;
+            margin-left: 40%;
+            margin-right: 40%;
+            margin-top: 10%;
+            margin-bottom: 40%;
+
+    height: 500px;
+    width: 500px;
+   
+    align-items: center;
+        }
+
+        .frase{
+            position: absolute;
+
+            font-size: 100px;
+           margin-left: 35%;
+           margin-top: 10%;
+           text-shadow: 8px 8px 8px rgb(54, 52, 52);
+        }
+    </style>
+</head>
+<body> 
+    <div>
+    <p class="frase"> 自分自分自分自</p>
+    <div class="bandeira">
+    <div class="branco"></div>
+    <div class="bolaVermelha">
+</div>
+    
+    </div>
+    </div>
+   
+</body>
+</html>
